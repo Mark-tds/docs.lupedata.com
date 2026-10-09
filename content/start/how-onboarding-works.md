@@ -4,6 +4,8 @@ description: What you do, what our implementation team does, and how long each p
 icon: rocket
 ---
 
+Lupe is a Transparent Digital Services (TDS) company, so the team you work with during onboarding is the TDS implementation team.
+
 To set up your first-party data infrastructure and server-side tracking, our team needs limited access to a few of your accounts. You grant each one from your own account, so nothing is connected without your sign-off.
 
 ## Pick your path

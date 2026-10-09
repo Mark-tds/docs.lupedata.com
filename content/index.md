@@ -7,7 +7,7 @@ layout: home
 ---
 
 <div class="hero">
-<p class="hero-kicker">Lupe Docs</p>
+<p class="hero-kicker">Lupe Docs · A Transparent Digital Services company</p>
 <h2>Own your data. Fuel everything.</h2>
 <p>Everything you need to get your first-party data set up, live and working: step-by-step access guides, plain-English explainers and the legal terms behind them. You stay in control of every account the whole time.</p>
 <div class="hero-actions">
@@ -74,6 +74,10 @@ We only ask for the one pixel, dataset or permission each setup needs. Everythin
 Read our [Privacy policy](page:privacy-policy), [Terms of service](page:terms-of-service) and [Data processing agreement](page:data-processing-agreement).
 :::
 :::
+
+## About Lupe
+
+Lupe is a Transparent Digital Services (TDS) company. TDS is a UK digital marketing and data infrastructure agency, and Lupe is its first-party data platform. Throughout these docs, "we" means the Lupe team at TDS. Your agreement is with Transparent Digital Services Limited (see our [Terms of service](page:terms-of-service)).
 
 :::note Need a hand?
 Contact your onboarding manager or email [contact@lupedata.com](mailto:contact@lupedata.com). If something in a guide doesn't match what you see on screen, let us know and we'll walk through it with you on a short call.

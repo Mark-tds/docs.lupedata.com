@@ -7,6 +7,8 @@ eyebrow: Lupe for Business Owners
 audience: Owners, founders & directors
 ---
 
+Lupe is a Transparent Digital Services (TDS) company. TDS sets up and maintains your first-party data infrastructure, and the Lupe dashboard keeps watch over it.
+
 Most businesses already pay for the tools that bring customers in: ads, analytics, email, a booking or checkout system. The question for an owner is simple. Is every pound of that spend learning from accurate data, and is every customer's choice about tracking being respected?
 
 For most of the sites we look at, the honest answer to both is "not quite". Lupe fixes that at the source.

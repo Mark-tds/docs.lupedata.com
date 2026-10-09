@@ -6,6 +6,8 @@ eyebrow: Lupe for Shopify
 time: About 20 minutes of your time
 ---
 
+Lupe is a Transparent Digital Services (TDS) company, and the TDS team sets up and supports your store.
+
 Whether you sell merch as an artist or run an ecommerce brand, the Shopify setup is the same. Your store sends consented events to a server on your own domain, and that server passes them to your ad and analytics platforms through their official server connections. Your browser pixels stop being the only thing your ad platforms learn from.
 
 ## What we set up in your store

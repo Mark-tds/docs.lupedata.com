@@ -10,6 +10,8 @@ audience: Artists, managers & label teams
 :::video src="/media/lupe-artists-explainer.mp4" poster="/media/lupe-artists-explainer-poster.jpg" title="Lupe for artists explainer" caption="Lupe for artist and creator teams, explained in three minutes."
 :::
 
+Lupe is a Transparent Digital Services (TDS) company. TDS builds and maintains first-party data setups for artists, creators and their teams; Lupe is the platform that keeps them working.
+
 ## You already know first-party data matters. Now it has to pay off.
 
 Across every place your team spends to reach fans, a large share of that spend is wasted without first-party data. Lupe connects the places fans already show up, so every campaign learns from the last one.

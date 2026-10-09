@@ -1,25 +1,41 @@
 {
   "name": "Lupe Docs",
   "siteUrl": "https://docs.lupedata.com",
-  "description": "Onboarding, platform access and first-party data guides for Lupe clients: Shopify stores, artists and creators, and business owners.",
+  "description": "Onboarding, platform access and first-party data guides for Lupe, a Transparent Digital Services company: for Shopify stores, artists and creators, and business owners.",
   "supportEmail": "contact@lupedata.com",
   "topLinks": [
-    { "label": "lupedata.com", "href": "https://lupedata.com" },
-    { "label": "Compliance scanner", "href": "https://scanner.lupedata.com" }
+    {
+      "label": "lupedata.com",
+      "href": "https://lupedata.com"
+    },
+    {
+      "label": "Compliance scanner",
+      "href": "https://scanner.lupedata.com"
+    }
   ],
-  "cta": { "label": "Contact support", "href": "mailto:contact@lupedata.com" },
-  "footer": "Lupe · lupedata.com · contact@lupedata.com",
+  "cta": {
+    "label": "Contact support",
+    "href": "mailto:contact@lupedata.com"
+  },
+  "footer": "Lupe is a Transparent Digital Services (TDS) company · lupedata.com · contact@lupedata.com",
   "tabs": [
     {
       "label": "Start here",
       "groups": [
         {
           "label": "Start here",
-          "pages": ["index", "start/how-onboarding-works", "start/your-data-our-access"]
+          "pages": [
+            "index",
+            "start/how-onboarding-works",
+            "start/your-data-our-access"
+          ]
         },
         {
           "label": "Help",
-          "pages": ["start/troubleshooting", "start/contact"]
+          "pages": [
+            "start/troubleshooting",
+            "start/contact"
+          ]
         }
       ]
     },
@@ -28,11 +44,21 @@
       "groups": [
         {
           "label": "Lupe for Shopify",
-          "pages": ["shopify/lupe-for-shopify", "shopify/shopify-stape-setup"]
+          "pages": [
+            "shopify/lupe-for-shopify",
+            "shopify/shopify-stape-setup"
+          ]
         },
         {
           "label": "Connect your ad platforms",
-          "pages": [{ "ref": "platform-access/meta-dataset-access" }, { "ref": "platform-access/tiktok-pixel-access" }]
+          "pages": [
+            {
+              "ref": "platform-access/meta-dataset-access"
+            },
+            {
+              "ref": "platform-access/tiktok-pixel-access"
+            }
+          ]
         }
       ]
     },
@@ -41,7 +67,10 @@
       "groups": [
         {
           "label": "Lupe for Artists & Creators",
-          "pages": ["artists/lupe-for-artists", "artists/artist-onboarding"]
+          "pages": [
+            "artists/lupe-for-artists",
+            "artists/artist-onboarding"
+          ]
         },
         {
           "label": "First-party data for artists",
@@ -58,9 +87,16 @@
         {
           "label": "Platform access",
           "pages": [
-            { "ref": "shopify/shopify-stape-setup", "title": "Shopify merch store" },
-            { "ref": "platform-access/meta-dataset-access" },
-            { "ref": "platform-access/tiktok-pixel-access" }
+            {
+              "ref": "shopify/shopify-stape-setup",
+              "title": "Shopify merch store"
+            },
+            {
+              "ref": "platform-access/meta-dataset-access"
+            },
+            {
+              "ref": "platform-access/tiktok-pixel-access"
+            }
           ]
         }
       ]
@@ -70,7 +106,11 @@
       "groups": [
         {
           "label": "Lupe for Business Owners",
-          "pages": ["business/lupe-for-business", "business/business-explainer", "business/business-onboarding"]
+          "pages": [
+            "business/lupe-for-business",
+            "business/business-explainer",
+            "business/business-onboarding"
+          ]
         },
         {
           "label": "First-party data for businesses",
@@ -86,9 +126,16 @@
         {
           "label": "Platform access",
           "pages": [
-            { "ref": "shopify/shopify-stape-setup", "title": "Shopify store" },
-            { "ref": "platform-access/meta-dataset-access" },
-            { "ref": "platform-access/tiktok-pixel-access" }
+            {
+              "ref": "shopify/shopify-stape-setup",
+              "title": "Shopify store"
+            },
+            {
+              "ref": "platform-access/meta-dataset-access"
+            },
+            {
+              "ref": "platform-access/tiktok-pixel-access"
+            }
           ]
         }
       ]
@@ -99,7 +146,9 @@
         {
           "label": "Platform access",
           "pages": [
-            { "ref": "shopify/shopify-stape-setup" },
+            {
+              "ref": "shopify/shopify-stape-setup"
+            },
             "platform-access/meta-dataset-access",
             "platform-access/tiktok-pixel-access"
           ]
@@ -111,7 +160,11 @@
       "groups": [
         {
           "label": "Legal",
-          "pages": ["legal/privacy-policy", "legal/terms-of-service", "legal/data-processing-agreement"]
+          "pages": [
+            "legal/privacy-policy",
+            "legal/terms-of-service",
+            "legal/data-processing-agreement"
+          ]
         }
       ]
     }

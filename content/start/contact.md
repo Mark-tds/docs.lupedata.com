@@ -4,6 +4,8 @@ description: How to reach the Lupe onboarding and implementation team.
 icon: mail
 ---
 
+Lupe is a Transparent Digital Services (TDS) company. You can reach the Lupe team at TDS in the ways below.
+
 :::cards cols="2"
 :::card title="Your onboarding manager" icon="users"
 Your first point of contact for anything in these guides. Send them your "I'm done" message at the end of each guide, along with the name and ID of any pixel or dataset you shared.
