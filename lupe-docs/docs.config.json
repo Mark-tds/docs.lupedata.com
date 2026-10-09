@@ -1,0 +1,57 @@
+{
+  "name": "Lupe Docs",
+  "siteUrl": "https://docs.lupedata.com",
+  "description": "Onboarding, platform access and first-party data guides for Lupe clients.",
+  "supportEmail": "contact@lupedata.com",
+  "topLinks": [
+    { "label": "lupedata.com", "href": "https://lupedata.com" },
+    { "label": "Compliance scanner", "href": "https://scanner.lupedata.com" }
+  ],
+  "cta": { "label": "Contact support", "href": "mailto:contact@lupedata.com" },
+  "footer": "Lupe · lupedata.com · contact@lupedata.com",
+  "tabs": [
+    {
+      "label": "Onboarding",
+      "groups": [
+        {
+          "label": "Getting started",
+          "pages": ["index", "getting-started/how-onboarding-works", "getting-started/your-data-our-access"]
+        },
+        {
+          "label": "Platform access",
+          "pages": ["platform-access/shopify-stape-setup", "platform-access/meta-dataset-access", "platform-access/tiktok-pixel-access"]
+        },
+        {
+          "label": "Help",
+          "pages": ["help/troubleshooting", "help/contact"]
+        }
+      ]
+    },
+    {
+      "label": "First-party data",
+      "groups": [
+        {
+          "label": "Artist first-party data",
+          "pages": [
+            "first-party-data/overview",
+            "first-party-data/first-party-approach",
+            "first-party-data/step-by-step",
+            "first-party-data/international-frameworks",
+            "first-party-data/who-does-what",
+            "first-party-data/side-by-side",
+            "first-party-data/review-checklist"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Policies",
+      "groups": [
+        {
+          "label": "Policies",
+          "pages": ["policies/policy-library"]
+        }
+      ]
+    }
+  ]
+}

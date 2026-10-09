@@ -1,0 +1,17 @@
+{
+  "name": "lupe-docs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Source for docs.lupedata.com: Lupe client onboarding, platform access and first-party data documentation.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "build:preview": "node scripts/build.mjs --single",
+    "check": "node scripts/build.mjs --check"
+  },
+  "dependencies": {
+    "marked": "14.1.4"
+  }
+}
