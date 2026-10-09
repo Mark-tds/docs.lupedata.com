@@ -38,12 +38,15 @@ export function build({ single = SINGLE, check = CHECK, quiet = false } = {}) {
   const bySlug = new Map(pages.map((p) => [p.slug, p]));
   const findPage = (ref) => byId.get(ref) || bySlug.get(ref);
 
-  const pageUrl = (p) => (single ? `#${p.id}` : p.slug === 'index' ? '/' : `/${p.slug}/`);
+  // BASE_PATH lets the site live in a sub-folder, e.g. https://user.github.io/repo-name/ → BASE_PATH=/repo-name
+  const BASE = single ? '' : (process.env.BASE_PATH || '').replace(/\/+$/, '');
+  const pageUrl = (p) => (single ? `#${p.id}` : p.slug === 'index' ? `${BASE}/` : `${BASE}/${p.slug}/`);
 
   // ---- Link + image resolution ----
   const imageCache = new Map();
   const resolveImage = (src) => {
-    if (!single || /^(https?:|data:)/.test(src)) return src;
+    if (/^(https?:|data:)/.test(src)) return src;
+    if (!single) return src.startsWith('/') ? BASE + src : src;
     if (imageCache.has(src)) return imageCache.get(src);
     const file = path.join(ROOT, 'public', src.replace(/^\//, ''));
     if (!fs.existsSync(file)) {
@@ -182,7 +185,7 @@ ${toc.length && !home ? `<aside class="toc" aria-label="On this page"><p class="
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta name="theme-color" content="#0f0d18">
-<link rel="icon" href="${single ? 'data:image/svg+xml,' + encodeURIComponent(fs.readFileSync(path.join(ROOT, 'public', 'favicon.svg'), 'utf8')) : '/favicon.svg'}">
+<link rel="icon" href="${single ? 'data:image/svg+xml,' + encodeURIComponent(fs.readFileSync(path.join(ROOT, 'public', 'favicon.svg'), 'utf8')) : BASE + '/favicon.svg'}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400&family=JetBrains+Mono:wght@400;500&family=Poppins:wght@500;600;700&display=swap">
 <script>try{var t=localStorage.getItem('lupe-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
@@ -252,8 +255,8 @@ ${assets.js}
   fs.writeFileSync(path.join(dist, 'assets', 'site.js'), js);
   fs.writeFileSync(path.join(dist, 'assets', 'search-index.js'), `window.__LUPE_SEARCH__=${searchJson};`);
   const assets = {
-    css: '<link rel="stylesheet" href="/assets/site.css">',
-    js: '<script src="/assets/search-index.js" defer></script>\n<script src="/assets/site.js" defer></script>'
+    css: `<link rel="stylesheet" href="${BASE}/assets/site.css">`,
+    js: `<script src="${BASE}/assets/search-index.js" defer></script>\n<script src="${BASE}/assets/site.js" defer></script>`
   };
   for (const p of pages) {
     const html = shell({
@@ -274,7 +277,7 @@ ${assets.js}
     description: config.description,
     activeTab: 0,
     activeId: '',
-    articles: `<article class="page" data-page="404" data-tab="0" data-title="Page not found"><div class="page-grid no-toc"><div class="page-main"><header class="page-header"><p class="eyebrow">404</p><h1>Page not found</h1><p class="lede">This page may have moved. Use search, or head back to the start.</p></header><p><a class="btn btn-primary" href="/">Go to Lupe Docs home</a></p></div></div></article>`,
+    articles: `<article class="page" data-page="404" data-tab="0" data-title="Page not found"><div class="page-grid no-toc"><div class="page-main"><header class="page-header"><p class="eyebrow">404</p><h1>Page not found</h1><p class="lede">This page may have moved. Use search, or head back to the start.</p></header><p><a class="btn btn-primary" href="${BASE}/">Go to Lupe Docs home</a></p></div></div></article>`,
     assets
   });
   fs.writeFileSync(path.join(dist, '404.html'), notFound);
