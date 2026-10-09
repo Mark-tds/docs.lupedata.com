@@ -50,13 +50,23 @@
           ]
         },
         {
-          "label": "Connect your ad platforms",
+          "label": "Connect your platforms",
           "pages": [
             {
               "ref": "platform-access/meta-dataset-access"
             },
             {
               "ref": "platform-access/tiktok-pixel-access"
+            },
+            {
+              "ref": "platform-access/google-ads-access"
+            },
+            {
+              "ref": "platform-access/ga4-access"
+            },
+            {
+              "ref": "platform-access/all-platforms",
+              "title": "All platforms"
             }
           ]
         }
@@ -96,6 +106,16 @@
             },
             {
               "ref": "platform-access/tiktok-pixel-access"
+            },
+            {
+              "ref": "platform-access/google-ads-access"
+            },
+            {
+              "ref": "platform-access/ga4-access"
+            },
+            {
+              "ref": "platform-access/all-platforms",
+              "title": "All platforms"
             }
           ]
         }
@@ -135,6 +155,16 @@
             },
             {
               "ref": "platform-access/tiktok-pixel-access"
+            },
+            {
+              "ref": "platform-access/google-ads-access"
+            },
+            {
+              "ref": "platform-access/ga4-access"
+            },
+            {
+              "ref": "platform-access/all-platforms",
+              "title": "All platforms"
             }
           ]
         }
@@ -146,11 +176,32 @@
         {
           "label": "Platform access",
           "pages": [
+            "platform-access/all-platforms"
+          ]
+        },
+        {
+          "label": "Ad platforms",
+          "pages": [
+            "platform-access/meta-dataset-access",
+            "platform-access/tiktok-pixel-access",
+            "platform-access/google-ads-access",
+            "platform-access/linkedin-access",
+            "platform-access/pinterest-access",
+            "platform-access/openai-ads-access"
+          ]
+        },
+        {
+          "label": "Analytics",
+          "pages": [
+            "platform-access/ga4-access"
+          ]
+        },
+        {
+          "label": "Store",
+          "pages": [
             {
               "ref": "shopify/shopify-stape-setup"
-            },
-            "platform-access/meta-dataset-access",
-            "platform-access/tiktok-pixel-access"
+            }
           ]
         }
       ]

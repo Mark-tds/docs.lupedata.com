@@ -43,6 +43,8 @@ Add us as a partner and share the one pixel your store uses. [Open the TikTok gu
 :::
 :::
 
+Using Google Ads, Google Analytics 4, LinkedIn, Pinterest or ChatGPT ads too? See [All platform access guides](page:all-platforms).
+
 ## What we never touch
 
 We don't ask for access to your orders, products, customer lists, payments or staff accounts, and we never ask for passwords. See [Your data and our access](page:your-data-our-access) for every permission and why we need it.

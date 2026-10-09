@@ -59,6 +59,15 @@ Assign us as a partner on one dataset in your Meta Business portfolio. About 5 m
 :::card title="TikTok pixel access" href="page:tiktok-pixel-access" icon="pixel"
 Add us as a partner and share one pixel from your TikTok Business Center. About 5 minutes.
 :::
+:::card title="Google Ads access" href="page:google-ads-access" icon="rocket"
+Accept a link request from our manager account. About 5 minutes.
+:::
+:::card title="Google Analytics 4 access" href="page:ga4-access" icon="compare"
+Add us to one GA4 property, or ask us to create a new one for you. About 5 minutes.
+:::
+:::card title="All platforms" href="page:all-platforms" icon="list"
+LinkedIn, Pinterest, ChatGPT ads and everything else we connect, in one place.
+:::
 :::
 
 ## How we work with your accounts

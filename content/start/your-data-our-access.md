@@ -18,6 +18,11 @@ Lupe and TDS never own or control your datasets or ad accounts, and we never sto
 | Shopify | Collaborator access with four permission areas | Orders, products, customer lists, payments or staff accounts |
 | Meta | :yes[Full control] of one dataset | Other datasets, ad accounts, Pages, Instagram, catalogues, billing, portfolio settings |
 | TikTok | :yes[Edit pixels] on one pixel | Other pixels, advertiser accounts, catalogs, shops, billing, Business Center settings |
+| Google Ads | Link to our manager account | Used for conversion tracking only: we don't change campaigns, budgets, billing or users |
+| Google Analytics 4 | :yes[Editor] on one property | Other properties, users and permissions, account settings |
+| LinkedIn | :yes[Campaign Manager] on one ad account | Other ad accounts, company pages, billing |
+| Pinterest | :yes[Analyst] on one ad account | Campaigns, billing, profiles, catalogs, audiences |
+| ChatGPT ads (OpenAI) | :yes[Member] on one advertising account | Account administration, other advertising accounts, ChatGPT workspaces |
 
 ## Shopify
 
@@ -57,6 +62,8 @@ Full steps: [Meta dataset access](page:meta-dataset-access).
 
 Full steps: [TikTok pixel access](page:tiktok-pixel-access).
 
+Guides for every other platform, including Google Ads, Google Analytics 4, LinkedIn, Pinterest and ChatGPT ads, are in [All platform access guides](page:all-platforms).
+
 ## Test events
 
 When we run test events, we see the event details the platform shows for that test traffic. Personal details such as email addresses are hashed (scrambled) before they reach Meta or TikTok. We don't download or keep any of your event data.
@@ -69,6 +76,9 @@ Check these against any request you see in your accounts.
 | --- | --- | --- |
 | Meta | Lupe \| TDS | Business ID `300861977272185` |
 | TikTok | Lupe \| TDS | Business Center ID `7398888478508941313` |
+| Google Ads | Lupe \| TDS Manager Account | Manager ID `921-213-2498` |
+| Google Analytics 4, ChatGPT ads | Lupe analytics | `analytics@lupedata.com` |
+| LinkedIn, Pinterest | Lupe \| TDS | Sent by your onboarding manager |
 | Shopify | Lupe Data \| TDS | Request sent using your collaborator code |
 
 ## The legal terms

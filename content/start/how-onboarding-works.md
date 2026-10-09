@@ -16,7 +16,7 @@ The setup is the same for everyone. Each path explains it in the terms that matt
 - [Lupe for Artists & Creators](page:lupe-for-artists): for artist, management and label teams.
 - [Lupe for Business Owners](page:lupe-for-business): for owners who want to protect margin and stay compliant.
 
-## The three access guides
+## The core access guides
 
 Most clients complete these in order. Your onboarding manager will tell you which ones apply to you.
 
@@ -25,6 +25,10 @@ Most clients complete these in order. Your onboarding manager will tell you whic
 | [Shopify access & Stape setup](page:shopify-stape-setup) | Shopify admin | About 10 minutes | Collaborator access, plus installing the Stape app yourself |
 | [Meta dataset access](page:meta-dataset-access) | Meta Business settings | About 5 minutes | One dataset, assigned to our business |
 | [TikTok pixel access](page:tiktok-pixel-access) | TikTok Business Center | About 5 minutes | One pixel, shared with our Business Center |
+| [Google Ads access](page:google-ads-access) | Google Ads | About 5 minutes | A link to our manager account |
+| [Google Analytics 4 access](page:ga4-access) | Google Analytics | About 5 minutes | One property, or ask us to create one |
+
+Advertise on LinkedIn, Pinterest or ChatGPT? See [All platform access guides](page:all-platforms).
 
 ## Your part and our part
 
