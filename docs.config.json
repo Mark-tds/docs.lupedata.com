@@ -1,0 +1,119 @@
+{
+  "name": "Lupe Docs",
+  "siteUrl": "https://docs.lupedata.com",
+  "description": "Onboarding, platform access and first-party data guides for Lupe clients: Shopify stores, artists and creators, and business owners.",
+  "supportEmail": "contact@lupedata.com",
+  "topLinks": [
+    { "label": "lupedata.com", "href": "https://lupedata.com" },
+    { "label": "Compliance scanner", "href": "https://scanner.lupedata.com" }
+  ],
+  "cta": { "label": "Contact support", "href": "mailto:contact@lupedata.com" },
+  "footer": "Lupe · lupedata.com · contact@lupedata.com",
+  "tabs": [
+    {
+      "label": "Start here",
+      "groups": [
+        {
+          "label": "Start here",
+          "pages": ["index", "start/how-onboarding-works", "start/your-data-our-access"]
+        },
+        {
+          "label": "Help",
+          "pages": ["start/troubleshooting", "start/contact"]
+        }
+      ]
+    },
+    {
+      "label": "Lupe for Shopify",
+      "groups": [
+        {
+          "label": "Lupe for Shopify",
+          "pages": ["shopify/lupe-for-shopify", "shopify/shopify-stape-setup"]
+        },
+        {
+          "label": "Connect your ad platforms",
+          "pages": [{ "ref": "platform-access/meta-dataset-access" }, { "ref": "platform-access/tiktok-pixel-access" }]
+        }
+      ]
+    },
+    {
+      "label": "Lupe for Artists & Creators",
+      "groups": [
+        {
+          "label": "Lupe for Artists & Creators",
+          "pages": ["artists/lupe-for-artists", "artists/artist-onboarding"]
+        },
+        {
+          "label": "First-party data for artists",
+          "pages": [
+            "artists/artist-guide",
+            "artists/first-party-approach",
+            "artists/step-by-step",
+            "artists/international-frameworks",
+            "artists/who-does-what",
+            "artists/side-by-side",
+            "artists/review-checklist"
+          ]
+        },
+        {
+          "label": "Platform access",
+          "pages": [
+            { "ref": "shopify/shopify-stape-setup", "title": "Shopify merch store" },
+            { "ref": "platform-access/meta-dataset-access" },
+            { "ref": "platform-access/tiktok-pixel-access" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Lupe for Business Owners",
+      "groups": [
+        {
+          "label": "Lupe for Business Owners",
+          "pages": ["business/lupe-for-business", "business/business-explainer", "business/business-onboarding"]
+        },
+        {
+          "label": "First-party data for businesses",
+          "pages": [
+            "business/margin-and-performance",
+            "business/how-your-data-flows",
+            "business/compliance-essentials",
+            "business/business-roles",
+            "business/business-side-by-side",
+            "business/business-review-checklist"
+          ]
+        },
+        {
+          "label": "Platform access",
+          "pages": [
+            { "ref": "shopify/shopify-stape-setup", "title": "Shopify store" },
+            { "ref": "platform-access/meta-dataset-access" },
+            { "ref": "platform-access/tiktok-pixel-access" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Platform access",
+      "groups": [
+        {
+          "label": "Platform access",
+          "pages": [
+            { "ref": "shopify/shopify-stape-setup" },
+            "platform-access/meta-dataset-access",
+            "platform-access/tiktok-pixel-access"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Legal",
+      "groups": [
+        {
+          "label": "Legal",
+          "pages": ["legal/privacy-policy", "legal/terms-of-service", "legal/data-processing-agreement"]
+        }
+      ]
+    }
+  ]
+}

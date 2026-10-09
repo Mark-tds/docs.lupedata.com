@@ -1,0 +1,17 @@
+# DigitalOcean App Platform spec (static site). Create with:
+#   doctl apps create --spec .do/app.yaml
+# Then add docs.lupedata.com as a custom domain in the app's Settings and point a CNAME at the app URL.
+name: lupe-docs
+region: lon
+static_sites:
+  - name: docs
+    github:
+      repo: TDS-Agency/lupe-docs
+      branch: main
+      deploy_on_push: true
+    build_command: npm ci && npm run build
+    output_dir: dist
+    error_document: 404.html
+domains:
+  - domain: docs.lupedata.com
+    type: PRIMARY
