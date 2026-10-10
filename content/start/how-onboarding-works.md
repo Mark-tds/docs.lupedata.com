@@ -6,27 +6,41 @@ icon: rocket
 
 Lupe is a Transparent Digital Services (TDS) company, so the team you work with during onboarding is the TDS implementation team.
 
+:::warning Important: you are always in control
+All platforms, and the data in them, stay under your admin rights at all times. Lupe does not store or use your platform data, except to show you an aggregated and anonymised analytical view.
+
+During setup, you may grant access to our team members so they can configure and test your datasets and first-party infrastructure, following our data minimisation framework of [Minimum necessary access](page:your-data-our-access). That means no access to your ad accounts' campaigns, order information, billing or financial information: only what's needed to test the events your website sends to each platform.
+
+Our team will not ask you for admin access unless you've asked for their support with a specific task or troubleshooting session. You can remove our team members at any time, and you remain the account admin throughout.
+:::
+
 To set up your first-party data infrastructure and server-side tracking, our team needs limited access to a few of your accounts. You grant each one from your own account, so nothing is connected without your sign-off.
 
 ## Pick your path
 
 The setup is the same for everyone. Each path explains it in the terms that matter to you:
 
-- [Lupe for Shopify](page:lupe-for-shopify): for any Shopify store, from artist merch to ecommerce brands.
-- [Lupe for Artists & Creators](page:lupe-for-artists): for artist, management and label teams.
-- [Lupe for Business Owners](page:lupe-for-business): for owners who want to protect margin and stay compliant.
+:::cards cols="2"
+:::card title="Lupe for Business Owners" href="page:lupe-for-business" icon="rocket"
+For marketing professionals, tech teams and business owners.
+:::
+:::card title="Lupe for Artists & Creators" href="page:lupe-for-artists" icon="users"
+For artists, creators, managers and label teams.
+:::
+:::
 
 ## The core access guides
 
-Most clients complete these in order. Your onboarding manager will tell you which ones apply to you.
+Your onboarding manager will tell you which ones apply to you. If your site runs on Shopify, use the Shopify guide; if it runs on WordPress, use the WordPress guide.
 
 | Guide | Where you do it | Time | What you share |
 | --- | --- | --- | --- |
-| [Shopify access & Stape setup](page:shopify-stape-setup) | Shopify admin | About 10 minutes | Collaborator access, plus installing the Stape app yourself |
-| [Meta dataset access](page:meta-dataset-access) | Meta Business settings | About 5 minutes | One dataset, assigned to our business |
-| [TikTok pixel access](page:tiktok-pixel-access) | TikTok Business Center | About 5 minutes | One pixel, shared with our Business Center |
-| [Google Ads access](page:google-ads-access) | Google Ads | About 5 minutes | A link to our manager account |
-| [Google Analytics 4 access](page:ga4-access) | Google Analytics | About 5 minutes | One property, or ask us to create one |
+| :logo[shopify][Shopify access & Stape setup](page:shopify-stape-setup) | Shopify admin | About 10 minutes | Collaborator access, plus installing the Stape app yourself |
+| :logo[wordpress][WordPress & Stape setup](page:wordpress-stape-setup) | WordPress admin | About 10 minutes | Installing the Stape plugin yourself; no login needed |
+| :logo[meta][Meta dataset access](page:meta-dataset-access) | Meta Business settings | About 5 minutes | One dataset, assigned to our business |
+| :logo[tiktok][TikTok pixel access](page:tiktok-pixel-access) | TikTok Business Center | About 5 minutes | One pixel, shared with our Business Center |
+| :logo[google-ads][Google Ads setup](page:google-ads-access) | Google Ads, on a short screen-share | About 15 minutes | No access: a GA4 link and two codes |
+| :logo[google-analytics][Google Analytics 4 access](page:ga4-access) | Google Analytics | About 5 minutes | One property, or ask us to create one |
 
 Advertise on LinkedIn, Pinterest or ChatGPT? See [All platform access guides](page:all-platforms).
 
@@ -35,7 +49,7 @@ Advertise on LinkedIn, Pinterest or ChatGPT? See [All platform access guides](pa
 :::cards cols="2"
 :::card title="Your part" icon="users" tone="mint"
 - Grant access from your own account
-- Install anything that only a store owner can install
+- Install anything that only you can install, such as the Stape app or plugin
 - Let your onboarding manager know when you're done
 :::
 :::card title="Our part" icon="flow" tone="violet"

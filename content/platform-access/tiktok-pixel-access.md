@@ -2,6 +2,7 @@
 title: TikTok pixel access
 sidebarTitle: TikTok pixel access
 description: Four quick steps to give us access to one pixel, and nothing else.
+logo: tiktok
 icon: pixel
 eyebrow: Client onboarding guide
 time: About 5 minutes

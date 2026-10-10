@@ -1,11 +1,20 @@
 ---
-title: Your data and our access
-sidebarTitle: Your data & our access
-description: The exact access we ask for on each platform, what it lets us do, and what stays private.
+title: Minimum necessary access
+sidebarTitle: Minimum necessary access
+description: Our data minimisation framework: the exact access we ask for on each platform, what it lets us do, and what stays private.
 icon: shield
 ---
 
-We ask for the minimum access each setup needs. You grant it from your own account, nothing else is shared, and you can remove our access at any time.
+**Minimum necessary access** is our data minimisation framework. We ask only for the access needed to configure and test your first-party setup: in practice, the ability to see the events your website sends to each platform. You grant it from your own account, nothing else is shared, and you can remove our access at any time.
+
+## What the framework means
+
+- **You remain the admin.** Every platform and its data stays under your admin rights. We never ask to own an account.
+- **No ad account, order or financial data.** We don't get access to your ad campaigns and budgets, order information, customer lists, billing or financial information.
+- **Only what testing needs.** Our access lets us connect your server container and check the events arriving at each platform.
+- **No admin access by default.** We'll only ask for admin access if you've requested our support with a specific task or troubleshooting session.
+- **Aggregated views only.** Lupe doesn't store or use your platform data, except to show you an aggregated and anonymised analytical view.
+- **Remove us any time.** Every guide shows where to see and remove our access.
 
 :::check You stay in control
 Lupe and TDS never own or control your datasets or ad accounts, and we never store or view your data. Lupe is a dashboard layer: all processing happens in accounts that you own.
@@ -15,14 +24,15 @@ Lupe and TDS never own or control your datasets or ad accounts, and we never sto
 
 | Platform | What we ask for | What we don't access |
 | --- | --- | --- |
-| Shopify | Collaborator access with four permission areas | Orders, products, customer lists, payments or staff accounts |
-| Meta | :yes[Full control] of one dataset | Other datasets, ad accounts, Pages, Instagram, catalogues, billing, portfolio settings |
-| TikTok | :yes[Edit pixels] on one pixel | Other pixels, advertiser accounts, catalogs, shops, billing, Business Center settings |
-| Google Ads | Link to our manager account | Used for conversion tracking only: we don't change campaigns, budgets, billing or users |
-| Google Analytics 4 | :yes[Editor] on one property | Other properties, users and permissions, account settings |
-| LinkedIn | :yes[Campaign Manager] on one ad account | Other ad accounts, company pages, billing |
-| Pinterest | :yes[Analyst] on one ad account | Campaigns, billing, profiles, catalogs, audiences |
-| ChatGPT ads (OpenAI) | :yes[Member] on one advertising account | Account administration, other advertising accounts, ChatGPT workspaces |
+| :logo[shopify]Shopify | Collaborator access with four permission areas | Orders, products, customer lists, payments or staff accounts |
+| :logo[wordpress]WordPress | No login: you install the Stape plugin yourself | Orders, customers, payments, pages and theme |
+| :logo[meta]Meta | :yes[Full control] of one dataset | Other datasets, ad accounts, Pages, Instagram, catalogues, billing, portfolio settings |
+| :logo[tiktok]TikTok | :yes[Edit pixels] on one pixel | Other pixels, advertiser accounts, catalogs, shops, billing, Business Center settings |
+| :logo[google-ads]Google Ads | :no[No access] You approve a GA4 link and send us a conversion ID and label | Your whole Google Ads account: campaigns, budgets, spend, billing and leads |
+| :logo[google-analytics]Google Analytics 4 | :yes[Editor] on one property | Other properties, users and permissions, account settings |
+| :logo[linkedin]LinkedIn | :yes[Campaign Manager] on one ad account | Other ad accounts, company pages, billing |
+| :logo[pinterest]Pinterest | :yes[Analyst] on one ad account | Campaigns, billing, profiles, catalogs, audiences |
+| :logo[openai]ChatGPT ads (OpenAI) | :yes[Member] on one advertising account | Account administration, other advertising accounts, ChatGPT workspaces |
 
 ## Shopify
 
@@ -76,7 +86,7 @@ Check these against any request you see in your accounts.
 | --- | --- | --- |
 | Meta | Lupe \| TDS | Business ID `300861977272185` |
 | TikTok | Lupe \| TDS | Business Center ID `7398888478508941313` |
-| Google Ads | Lupe \| TDS Manager Account | Manager ID `921-213-2498` |
+| Google Ads | – | No access needed: you send a conversion ID and label |
 | Google Analytics 4, ChatGPT ads | Lupe analytics | `analytics@lupedata.com` |
 | LinkedIn, Pinterest | Lupe \| TDS | Sent by your onboarding manager |
 | Shopify | Lupe Data \| TDS | Request sent using your collaborator code |

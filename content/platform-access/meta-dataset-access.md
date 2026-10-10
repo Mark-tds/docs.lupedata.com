@@ -2,6 +2,7 @@
 title: Meta dataset access
 sidebarTitle: Meta dataset access
 description: Three quick steps to give us access to one dataset, and nothing else.
+logo: meta
 icon: database
 eyebrow: Client onboarding guide
 time: About 5 minutes

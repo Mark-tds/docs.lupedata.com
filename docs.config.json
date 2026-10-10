@@ -1,7 +1,7 @@
 {
   "name": "Lupe Docs",
   "siteUrl": "https://docs.lupedata.com",
-  "description": "Onboarding, platform access and first-party data guides for Lupe, a Transparent Digital Services company: for Shopify stores, artists and creators, and business owners.",
+  "description": "Onboarding, platform access and first-party data guides for Lupe, a Transparent Digital Services company: for business owners, marketing and tech teams, and artists and creators.",
   "supportEmail": "contact@lupedata.com",
   "topLinks": [
     {
@@ -40,18 +40,38 @@
       ]
     },
     {
-      "label": "Lupe for Shopify",
+      "label": "Lupe for Business Owners",
       "groups": [
         {
-          "label": "Lupe for Shopify",
+          "label": "Lupe for Business Owners",
           "pages": [
-            "shopify/lupe-for-shopify",
-            "shopify/shopify-stape-setup"
+            "business/lupe-for-business",
+            "business/business-explainer",
+            "business/business-onboarding"
           ]
         },
         {
-          "label": "Connect your platforms",
+          "label": "First-party data for businesses",
           "pages": [
+            "business/margin-and-performance",
+            "business/how-your-data-flows",
+            "business/compliance-essentials",
+            "business/business-roles",
+            "business/business-side-by-side",
+            "business/business-review-checklist"
+          ]
+        },
+        {
+          "label": "Platform access",
+          "pages": [
+            {
+              "ref": "platform-access/shopify-stape-setup",
+              "title": "Shopify"
+            },
+            {
+              "ref": "platform-access/wordpress-stape-setup",
+              "title": "WordPress"
+            },
             {
               "ref": "platform-access/meta-dataset-access"
             },
@@ -98,57 +118,12 @@
           "label": "Platform access",
           "pages": [
             {
-              "ref": "shopify/shopify-stape-setup",
-              "title": "Shopify merch store"
+              "ref": "platform-access/shopify-stape-setup",
+              "title": "Shopify"
             },
             {
-              "ref": "platform-access/meta-dataset-access"
-            },
-            {
-              "ref": "platform-access/tiktok-pixel-access"
-            },
-            {
-              "ref": "platform-access/google-ads-access"
-            },
-            {
-              "ref": "platform-access/ga4-access"
-            },
-            {
-              "ref": "platform-access/all-platforms",
-              "title": "All platforms"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Lupe for Business Owners",
-      "groups": [
-        {
-          "label": "Lupe for Business Owners",
-          "pages": [
-            "business/lupe-for-business",
-            "business/business-explainer",
-            "business/business-onboarding"
-          ]
-        },
-        {
-          "label": "First-party data for businesses",
-          "pages": [
-            "business/margin-and-performance",
-            "business/how-your-data-flows",
-            "business/compliance-essentials",
-            "business/business-roles",
-            "business/business-side-by-side",
-            "business/business-review-checklist"
-          ]
-        },
-        {
-          "label": "Platform access",
-          "pages": [
-            {
-              "ref": "shopify/shopify-stape-setup",
-              "title": "Shopify store"
+              "ref": "platform-access/wordpress-stape-setup",
+              "title": "WordPress"
             },
             {
               "ref": "platform-access/meta-dataset-access"
@@ -180,6 +155,13 @@
           ]
         },
         {
+          "label": "Website & store",
+          "pages": [
+            "platform-access/shopify-stape-setup",
+            "platform-access/wordpress-stape-setup"
+          ]
+        },
+        {
           "label": "Ad platforms",
           "pages": [
             "platform-access/meta-dataset-access",
@@ -194,14 +176,6 @@
           "label": "Analytics",
           "pages": [
             "platform-access/ga4-access"
-          ]
-        },
-        {
-          "label": "Store",
-          "pages": [
-            {
-              "ref": "shopify/shopify-stape-setup"
-            }
           ]
         }
       ]

@@ -2,6 +2,7 @@
 title: LinkedIn ads access
 sidebarTitle: LinkedIn
 description: Add us as a partner in LinkedIn Business Manager and share one ad account. About 5 minutes.
+logo: linkedin
 icon: users
 eyebrow: Client onboarding guide
 time: About 5 minutes

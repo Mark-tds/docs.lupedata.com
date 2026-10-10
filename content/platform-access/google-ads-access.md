@@ -1,70 +1,98 @@
 ---
-title: Google Ads access
-description: Four quick steps to link your Google Ads account to our manager account. About 5 minutes.
+title: Google Ads setup
+sidebarTitle: Google Ads
+description: Connect Google Ads to your first-party setup without giving us any access to your Google Ads account. About 15 minutes, mostly on a short screen-share.
+logo: google-ads
 icon: rocket
 eyebrow: Client onboarding guide
-time: About 5 minutes
+time: About 15 minutes
 ---
 
-To set up enhanced conversions and server-side conversion tracking for Google Ads, we link your Google Ads account to our manager account. You accept the link from your own account and can remove it at any time.
+We set up Google Ads conversion tracking **without any access to your Google Ads account**. You approve one link from your Google Analytics 4 property, create your conversion actions with us on a short screen-share, and send us two codes. Your budgets, spend, billing and leads stay completely private.
+
+:::check Nothing in Google Ads is shared with us
+We are never added as a user and never linked as a manager account. We don't see your campaigns, budgets, spend, billing or the leads from your lead forms.
+:::
 
 :::cards cols="2"
 :::card title="Your part" icon="users" tone="mint"
-- Send us your Google Ads customer ID
-- Accept our link request
-- Let us know you're done
+- Approve our Google Analytics 4 link request
+- Create your conversion actions with us on a short screen-share
+- Send us the conversion ID and label
+- Confirm on the call that conversions arrive
 :::
 :::card title="Our part" icon="flow" tone="violet"
-- Set up conversion actions and enhanced conversions
-- Connect your server-side container to Google Ads
-- Check consent mode signals and conversion quality
-- Confirm with you when tracking is live
+- Send the GA4 link request from your GA4 property
+- Build the server-side Google Ads tag from your two codes
+- Set up enhanced conversions and consent signals in your server container
+- Run test conversions with you and confirm when tracking is live
 :::
 :::
 
 ## Before you start
 
-- You'll need **Admin** access to the Google Ads account. Google only sends link requests to people with admin access.
-- If an agency or another manager account already manages your account, that's fine. Your account can be linked to more than one manager.
+- Complete the [Google Analytics 4 guide](page:ga4-access) first. We send the link request from your GA4 property, using the Editor access you give us there.
+- You'll need **Admin** access to your Google Ads account to approve the link and create conversion actions.
+- Book a 15-minute screen-share with your onboarding manager for Step 2. We'll guide every click.
 
 ## Your steps
 
 :::steps
-:::step title="Send us your Google Ads customer ID" label="Your part"
-Sign in to Google Ads. Your 10-digit customer ID (for example `123-456-7890`) is shown at the top of the page, next to your account name. Send it to your onboarding manager.
-:::
-:::step title="Accept our link request" label="Your part"
-We'll send a link request from our manager account:
+:::step title="Approve our Google Analytics link request" label="Your part"
+We'll send a request from your GA4 property to link it with your Google Ads account. Google emails your account's admins when the request arrives.
 
-:::copy value="921-213-2498" label="Lupe | TDS Manager Account" caption="Our Google Ads manager account ID"
+To approve it, sign in to Google Ads and go to :ui[Tools › Data manager]. Open **Google Analytics (GA4) & Firebase**, find the pending request from your GA4 property and click **Approve**. You can also approve it from Google's email.
+
+Linking lets Google Ads use your GA4 key events and audiences. It doesn't give us, or anyone else, access to your Google Ads account.
+:::
+:::step title="Create your conversion actions on a screen-share" label="Your part"
+On a short call, we'll guide you through creating the conversion actions your business needs, usually a purchase or a lead:
+
+1. In Google Ads, go to :ui[Goals › Conversions › Summary] and click **+ New conversion action**.
+2. Choose **Website**, enter your website address and choose to add a conversion action manually.
+3. Pick the category (for example **Purchase** or **Submit lead form**), set the value and counting options we agree, then click **Done** and **Save and continue**.
+4. Choose **Use Google Tag Manager**. Google shows a **Conversion ID** and a **Conversion label**.
+
+If you'd also like to import GA4 key events as conversions, we'll do that on the same call: **+ New conversion action**, then **Import**, then **Google Analytics 4 properties**.
+
+We'll also check **enhanced conversions** is switched on in :ui[Goals › Settings], set to use Google Tag Manager.
+
+Menus can vary slightly between accounts, so follow along with your onboarding manager.
+:::
+:::step title="Send us the conversion ID and label" label="Your part"
+Send the **Conversion ID** and **Conversion label** for each conversion action to your onboarding manager. These two codes identify where conversions are sent. They don't give anyone access to your account.
+:::
+:::step title="Confirm conversions arrive" label="Your part"
+Once we've built your server-side tag, we'll run test conversions together. On a short call, open :ui[Goals › Conversions › Summary] and check the status of each conversion action, or share your screen so we can confirm it with you.
+:::
 :::
 
-In Google Ads, go to :ui[Admin › Access and security] and open the **Managers** tab. Under **Link requests**, check the request is from **Lupe | TDS Manager Account** (921-213-2498), then click **Accept**. You can also accept from the invitation email Google sends you.
-:::
-:::step title="Let us know you're done" label="Your part"
-Tell your onboarding manager you've accepted the request, so we know to start.
-:::
-:::
+## What we see, and what we don't
 
-## What this access does, and doesn't, do
-
-A linked manager account can see and manage your Google Ads account. We only use it for conversion tracking and measurement:
-
-| Area | Do we work on it? | What that means |
+| Area | Do we see it? | What that means |
 | --- | --- | --- |
-| Conversion actions and enhanced conversions | :yes[Yes] | Create and check the conversion actions your server sends data to. |
-| Google tag and consent mode | :yes[Yes] | Make sure conversions respect your visitors' consent choices. |
-| Linking Google Analytics 4 | :yes[With your OK] | Link your GA4 property so conversions and audiences can be shared. |
-| Campaigns, ads, bids and budgets | :no[No] | We don't change campaigns unless you ask us to. |
-| Billing and payments | :no[No] | We don't touch payment methods, invoices or spend. |
-| Other users | :no[No] | We don't add or remove people from your account. |
+| Conversion ID and label | :yes[Yes, you send them] | Used to build the server-side Google Ads tag in your container. |
+| Your GA4 property | :yes[Editor] | We send the link request from GA4 and check key events. See the [GA4 guide](page:ga4-access). |
+| Campaigns, ads and keywords | :no[No] | We have no access to your Google Ads account. |
+| Budgets, spend and billing | :no[No] | Stays fully private. |
+| Leads from lead forms | :no[No] | Stays fully private. |
+| Users and account settings | :no[No] | We're never added as a user or manager. |
+
+## What happens next
+
+Once you've finished, our implementation team will:
+
+- Add the Google Ads conversion tag and conversion linker to your server-side container, using your conversion ID and label
+- Send hashed customer details for enhanced conversions, only where consent allows
+- Check Google consent mode signals are passed with every conversion
+- Confirm with you when tracking is live
 
 ## Good to know
 
 :::check You're always in control
-You can remove the link at any time from :ui[Admin › Access and security › Managers] in your Google Ads account.
+You can remove the GA4 link at any time from :ui[Tools › Data manager] in Google Ads, or from :ui[Admin › Product links › Google Ads links] in GA4.
 :::
 
-:::note Don't see the request?
-Check you're signed in to the right Google account, and that it has admin access to the Google Ads account. Requests can also take a few minutes to appear.
+:::note Want us to manage your campaigns?
+If you'd like TDS to run your Google Ads campaigns as well, that's a separate service with different access. Ask your onboarding manager, who will explain how to link your account to our manager account, **Lupe | TDS Manager Account** (`921-213-2498`).
 :::

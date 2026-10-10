@@ -119,14 +119,15 @@ export function createRenderer({ resolveLink, resolveImage, resolveMedia }) {
         name: 'shortcode',
         level: 'inline',
         start(src) {
-          const m = src.match(/:(yes|no|ui|part)\[/);
+          const m = src.match(/:(yes|no|ui|part|logo)\[/);
           return m ? m.index : undefined;
         },
         tokenizer(src) {
-          const m = /^:(yes|no|ui|part)\[([^\]]+)\]/.exec(src);
-          if (m) return { type: 'shortcode', raw: m[0], kind: m[1], tokens: this.lexer.inlineTokens(m[2]) };
+          const m = /^:(yes|no|ui|part|logo)\[([^\]]+)\]/.exec(src);
+          if (m) return { type: 'shortcode', raw: m[0], kind: m[1], text: m[2], tokens: this.lexer.inlineTokens(m[2]) };
         },
         renderer(t) {
+          if (t.kind === 'logo') return logoImg(t.text, 'inline-logo');
           const inner = this.parser.parseInline(t.tokens);
           if (t.kind === 'yes') return `<span class="badge badge-yes">${icon('check', 'icon icon-xs')}${inner}</span>`;
           if (t.kind === 'no') return `<span class="badge badge-no">${inner}</span>`;
@@ -163,6 +164,10 @@ export function createRenderer({ resolveLink, resolveImage, resolveMedia }) {
   });
 
   const md = (text) => marked.parse(text);
+  // Platform logos live in public/images/logos/<slug>.svg
+  function logoImg(slug, cls) {
+    return `<img class="${cls}" src="${esc(resolveImage(`/images/logos/${slug}.svg`))}" alt="" aria-hidden="true">`;
+  }
 
   const renderNodes = (nodes) => nodes.map(renderNode).join('');
 
@@ -190,7 +195,7 @@ export function createRenderer({ resolveLink, resolveImage, resolveMedia }) {
       case 'card': {
         const tag = a.href ? 'a' : 'div';
         const href = a.href ? ` href="${esc(resolveLink(a.href))}"` : '';
-        return `<${tag} class="card${a.tone ? ` tone-${esc(a.tone)}` : ''}${a.href ? ' card-link' : ''}"${href}>${a.icon ? `<span class="card-icon">${icon(a.icon)}</span>` : ''}${a.title ? `<span class="card-title">${esc(a.title)}${a.href ? icon('arrow-right', 'icon icon-xs card-arrow') : ''}</span>` : ''}<div class="card-body">${inner()}</div></${tag}>`;
+        return `<${tag} class="card${a.tone ? ` tone-${esc(a.tone)}` : ''}${a.href ? ' card-link' : ''}"${href}>${a.logo ? `<span class="card-logo">${logoImg(a.logo, 'logo-img')}</span>` : a.icon ? `<span class="card-icon">${icon(a.icon)}</span>` : ''}${a.title ? `<span class="card-title">${esc(a.title)}${a.href ? icon('arrow-right', 'icon icon-xs card-arrow') : ''}</span>` : ''}<div class="card-body">${inner()}</div></${tag}>`;
       }
       case 'copy':
         return `<div class="copy-id"><div class="copy-text">${a.caption ? `<span class="copy-caption">${esc(a.caption)}</span>` : ''}<code class="copy-value">${esc(a.value)}</code>${a.label ? `<span class="copy-label">${esc(a.label)}</span>` : ''}</div><button type="button" class="copy-btn" data-copy="${esc(a.value)}">${icon('copy', 'icon icon-xs')}<span>Copy</span></button></div>`;
@@ -260,7 +265,8 @@ export function createRenderer({ resolveLink, resolveImage, resolveMedia }) {
   return function render(source, pageId) {
     ctx = { toc: [], ids: new Set(), pageId };
     // Raw HTML in Markdown may also use page: links.
-    const html = renderNodes(parseBlocks(source)).replace(/href="(page:[^"]+)"/g, (_, h) => `href="${esc(resolveLink(h))}"`);
+    const html = renderNodes(parseBlocks(source)).replace(/href="(page:[^"]+)"/g, (_, h) => `href="${esc(resolveLink(h))}"`)
+      .replace(/<img([^>]*?) src="(\/images\/[^"]+)"/g, (_, pre, src) => `<img${pre} src="${esc(resolveImage(src))}"`);
     return { html, toc: ctx.toc };
   };
 }

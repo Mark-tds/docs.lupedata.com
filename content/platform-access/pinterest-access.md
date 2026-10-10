@@ -2,6 +2,7 @@
 title: Pinterest ads access
 sidebarTitle: Pinterest
 description: Add us as a partner in Pinterest Business Manager and share one ad account. About 5 minutes.
+logo: pinterest
 icon: pixel
 eyebrow: Client onboarding guide
 time: About 5 minutes

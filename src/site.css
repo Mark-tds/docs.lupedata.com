@@ -551,3 +551,17 @@ kbd { font-family: var(--font-body); font-size: 11px; color: var(--muted); borde
   .ch-banner { grid-template-columns: minmax(0, 1fr); }
 }
 .page-wide .page-main { max-width: 980px; }
+
+/* ---------- Platform logos (always on a white tile so brand colours read in both themes) ---------- */
+.nav-logo { width: 18px; height: 18px; padding: 2px; border-radius: 5px; background: #ffffff; box-shadow: 0 0 0 1px var(--border); flex: none; }
+.page-header h1 { display: flex; align-items: center; gap: 14px; }
+.page-logo { display: inline-grid; place-items: center; width: 48px; height: 48px; border-radius: 12px; background: #ffffff; box-shadow: 0 0 0 1px var(--border), var(--shadow); flex: none; }
+.page-logo img { width: 28px; height: 28px; }
+.card-logo { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; background: #ffffff; box-shadow: 0 0 0 1px var(--border); margin-bottom: 6px; }
+.card-logo .logo-img { width: 22px; height: 22px; }
+.inline-logo { display: inline-block; width: 18px; height: 18px; padding: 2px; margin-right: 8px; vertical-align: -4px; border-radius: 5px; background: #ffffff; box-shadow: 0 0 0 1px var(--border); }
+.logo-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; }
+.logo-row img { width: 30px; height: 30px; padding: 6px; border-radius: 9px; background: #ffffff; }
+@media (max-width: 640px) { .page-logo { width: 40px; height: 40px; } .page-logo img { width: 24px; height: 24px; } }
+.paths.paths-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 900px) { .paths.paths-2 { grid-template-columns: minmax(0, 1fr); } }

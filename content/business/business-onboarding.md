@@ -20,9 +20,11 @@ By default we use CookieYes as the consent management platform (CMP). Other Goog
 :::step title="You grant access from your own accounts" label="Your part · about 20 minutes"
 Complete the guides that apply to your business:
 
-- [Shopify access & Stape setup](page:shopify-stape-setup), if you sell through Shopify
-- [Meta dataset access](page:meta-dataset-access)
-- [TikTok pixel access](page:tiktok-pixel-access)
+- :logo[shopify][Shopify access & Stape setup](page:shopify-stape-setup), if your site runs on Shopify
+- :logo[wordpress][WordPress & Stape setup](page:wordpress-stape-setup), if your site runs on WordPress
+- :logo[google-analytics][Google Analytics 4](page:ga4-access) and :logo[google-ads][Google Ads](page:google-ads-access)
+- :logo[meta][Meta](page:meta-dataset-access) and :logo[tiktok][TikTok](page:tiktok-pixel-access)
+- Any other platforms you advertise on: see [All platform access guides](page:all-platforms)
 
 Then let your onboarding manager know you're done.
 :::
@@ -38,7 +40,7 @@ We confirm with you when tracking is live. From then on, the Lupe dashboard aler
 
 - Admin access to your website platform, your Meta Business portfolio and your TikTok Business Center.
 - To know which pixel and dataset your website uses, and that your business owns them.
-- If your legal or IT team approves third-party apps, sign-off for **Stape Conversion Tracking** (Shopify stores) before you install it.
+- If your legal or IT team approves third-party apps, sign-off for **Stape Conversion Tracking** (the Shopify app or WordPress plugin) before you install it.
 
 :::note What stays your responsibility
 Your business decides which platforms receive data, and is responsible for your consent banner wording and privacy notice. See [Compliance essentials](page:compliance-essentials).

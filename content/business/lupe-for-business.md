@@ -4,7 +4,7 @@ sidebarTitle: Overview
 description: Own your customers. Protect your margin. First-party data that makes your ad spend work harder and keeps your consent working.
 icon: rocket
 eyebrow: Lupe for Business Owners
-audience: Owners, founders & directors
+audience: Marketing professionals, tech teams & business owners
 ---
 
 Lupe is a Transparent Digital Services (TDS) company. TDS sets up and maintains your first-party data infrastructure, and the Lupe dashboard keeps watch over it.

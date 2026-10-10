@@ -40,10 +40,10 @@ layout: story
 <p class="ch-label">04 · The platforms are moving too</p>
 <h2 class="ch-title">Meta, Google and emerging AI ad platforms <em>are going server to server.</em></h2>
 <div class="ch-rows">
-<div class="ch-row"><b>Meta</b><span><s>Browser pixel</s><span class="pill">Conversions API</span></span></div>
-<div class="ch-row"><b>Google</b><span><s>Browser tags only</s><span class="pill">Enhanced conversions</span> <span class="pill">Google tag gateway</span></span></div>
-<div class="ch-row"><b>TikTok</b><span><s>Browser pixel</s><span class="pill">Events API</span></span></div>
-<div class="ch-row"><b>AI ad platforms</b><span><s>Browser pixel</s><span class="pill">Conversions API</span></span></div>
+<div class="ch-row"><b><img class="inline-logo" src="/images/logos/meta.svg" alt="">Meta</b><span><s>Browser pixel</s><span class="pill">Conversions API</span></span></div>
+<div class="ch-row"><b><img class="inline-logo" src="/images/logos/google-ads.svg" alt="">Google</b><span><s>Browser tags only</s><span class="pill">Enhanced conversions</span> <span class="pill">Google tag gateway</span></span></div>
+<div class="ch-row"><b><img class="inline-logo" src="/images/logos/tiktok.svg" alt="">TikTok</b><span><s>Browser pixel</s><span class="pill">Events API</span></span></div>
+<div class="ch-row"><b><img class="inline-logo" src="/images/logos/openai.svg" alt="">AI ad platforms</b><span><s>Browser pixel</s><span class="pill">Conversions API</span></span></div>
 </div>
 <p style="margin-top:18px">The ad platforms themselves now recommend server-side connections. First-party data is what they're built to learn from.</p>
 </section>

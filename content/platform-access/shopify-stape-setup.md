@@ -2,6 +2,7 @@
 title: Shopify access & Stape setup
 sidebarTitle: Shopify & Stape
 description: Four quick steps to get your first-party tracking live.
+logo: shopify
 icon: store
 eyebrow: Client onboarding guide
 time: About 10 minutes

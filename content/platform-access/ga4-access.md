@@ -2,6 +2,7 @@
 title: Google Analytics 4 access
 sidebarTitle: Google Analytics 4
 description: Give us access to one GA4 property, or ask us to create a new one for you. About 5 minutes.
+logo: google-analytics
 icon: compare
 eyebrow: Client onboarding guide
 time: About 5 minutes
@@ -55,7 +56,7 @@ Send your onboarding manager the **property name** and **property ID**. You'll f
 | Other properties | :no[No] | Only the one property you add us to. |
 | Users and permissions | :no[No] | Editors can't add, remove or change users. |
 | Account settings | :no[No] | No access to your Google Analytics account settings or other accounts. |
-| Linking to Google Ads | :yes[With your OK] | Link the property to your Google Ads account so conversions and audiences can be shared. |
+| Linking to Google Ads | :yes[With your OK] | We send a link request from GA4, which you approve in Google Ads. This doesn't give us any access to your Google Ads account. |
 
 When we check your setup, we see the reports Google Analytics shows for your property. We don't download or keep any of your data.
 

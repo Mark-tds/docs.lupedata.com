@@ -130,6 +130,12 @@ export function build({ single = SINGLE, check = CHECK, quiet = false } = {}) {
       })
       .join('');
 
+  const navMark = (p) =>
+    p.data.logo
+      ? `<img class="nav-logo" src="${esc(resolveImage(`/images/logos/${p.data.logo}.svg`))}" alt="" aria-hidden="true">`
+      : p.data.icon
+        ? icon(p.data.icon, 'icon nav-icon')
+        : '';
   const sidebarHtml = (activeTab, activeId) =>
     config.tabs
       .map(
@@ -145,11 +151,11 @@ export function build({ single = SINGLE, check = CHECK, quiet = false } = {}) {
                     if (typeof entry !== 'string') {
                       const p = bySlug.get(entry.ref);
                       if (!p) return '';
-                      return `<li><a class="nav-link nav-ref" href="${pageUrl(p)}" title="Opens in ${esc(p.tabLabel)}">${p.data.icon ? icon(p.data.icon, 'icon nav-icon') : ''}<span>${esc(entry.title || p.data.sidebarTitle || p.title)}</span>${icon('arrow-right', 'icon icon-xs nav-ref-arrow')}</a></li>`;
+                      return `<li><a class="nav-link nav-ref" href="${pageUrl(p)}" title="Opens in ${esc(p.tabLabel)}">${navMark(p)}<span>${esc(entry.title || p.data.sidebarTitle || p.title)}</span>${icon('arrow-right', 'icon icon-xs nav-ref-arrow')}</a></li>`;
                     }
                     const p = bySlug.get(entry);
                     if (!p) return '';
-                    return `<li><a class="nav-link${p.id === activeId ? ' active' : ''}" data-nav="${p.id}" href="${pageUrl(p)}">${p.data.icon ? icon(p.data.icon, 'icon nav-icon') : ''}<span>${esc(p.data.sidebarTitle || p.title)}</span></a></li>`;
+                    return `<li><a class="nav-link${p.id === activeId ? ' active' : ''}" data-nav="${p.id}" href="${pageUrl(p)}">${navMark(p)}<span>${esc(p.data.sidebarTitle || p.title)}</span></a></li>`;
                   })
                   .join('') +
                 '</ul></div>'
@@ -177,7 +183,7 @@ export function build({ single = SINGLE, check = CHECK, quiet = false } = {}) {
 <div class="page-main">
 <header class="page-header">
 <p class="eyebrow">${esc(p.group)}</p>
-<h1>${esc(p.title)}</h1>
+<h1>${p.data.logo ? `<span class="page-logo"><img src="${esc(resolveImage(`/images/logos/${p.data.logo}.svg`))}" alt="" aria-hidden="true"></span>` : ''}${esc(p.title)}</h1>
 ${p.data.description ? `<p class="lede">${esc(p.data.description)}</p>` : ''}
 ${meta ? `<div class="page-meta">${meta}<div class="progress" hidden><span class="progress-track"><span class="progress-bar"></span></span><span class="progress-text"></span></div></div>` : '<div class="page-meta" hidden><div class="progress" hidden><span class="progress-track"><span class="progress-bar"></span></span><span class="progress-text"></span></div></div>'}
 </header>

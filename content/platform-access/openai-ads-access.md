@@ -2,6 +2,7 @@
 title: ChatGPT ads (OpenAI) access
 sidebarTitle: ChatGPT ads (OpenAI)
 description: Invite us to your OpenAI Ads Manager advertising account so we can set up the pixel and Conversions API. About 5 minutes.
+logo: openai
 icon: globe
 eyebrow: Client onboarding guide
 time: About 5 minutes
