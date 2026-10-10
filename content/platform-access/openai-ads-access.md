@@ -1,11 +1,11 @@
 ---
 title: ChatGPT ads (OpenAI) access
 sidebarTitle: ChatGPT ads (OpenAI)
-description: Invite us to your OpenAI Ads Manager advertising account so we can set up the pixel and Conversions API. About 5 minutes.
+description: Invite us to your OpenAI Ads Manager advertising account so we can set up the pixel and Conversions API. Under 3 minutes.
 logo: openai
 icon: globe
 eyebrow: Client onboarding guide
-time: About 5 minutes
+time: Under 3 minutes
 ---
 
 If you advertise in ChatGPT, we can connect your server-side container to OpenAI's pixel and Conversions API, so purchases, leads and sign-ups from ChatGPT ads are measured with the same consent checks as every other platform. OpenAI Ads Manager adds people by email, so you invite our analytics address to one advertising account.

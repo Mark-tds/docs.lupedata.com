@@ -1,11 +1,11 @@
 ---
 title: WordPress & Stape setup
 sidebarTitle: WordPress & Stape
-description: Check your site for existing tracking, install the Stape Conversion Tracking plugin and switch on auto-updates. About 10 minutes.
+description: Check your site for existing tracking, install the Stape Conversion Tracking plugin and switch on auto-updates. Under 5 minutes.
 icon: globe
 logo: wordpress
 eyebrow: Client onboarding guide
-time: About 10 minutes
+time: Under 5 minutes
 ---
 
 WordPress sites, including WooCommerce stores, connect to your first-party setup through Stape's free WordPress plugin. You install it from your own WordPress admin, so nothing goes onto your site without your sign-off, and you won't need to give us a login.

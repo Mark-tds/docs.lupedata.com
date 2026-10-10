@@ -1,7 +1,7 @@
 ---
 title: Lupe for Business Owners
 sidebarTitle: Overview
-description: Own your customers. Protect your margin. First-party data that makes your ad spend work harder and keeps your consent working.
+description: Own and protect your customers' consented data. Protect your margin. First-party data that makes your ad spend work harder and keeps your consent working.
 icon: rocket
 eyebrow: Lupe for Business Owners
 audience: Marketing professionals, tech teams & business owners
@@ -20,8 +20,8 @@ Ad platforms optimise on what they can see. When ad blockers, browsers and broke
 :::card title="Stay compliant" icon="shield" tone="mint"
 Your business is responsible for how customer data is collected. A tag that fires after a customer says no is a risk you can't see until it costs you.
 :::
-:::card title="Own your customers" icon="lock" tone="mint"
-Your domain, your server and your ad accounts. The data that builds your audiences stays with your business, not a supplier.
+:::card title="Own and protect your customers' consented data" icon="lock" tone="mint"
+Your domain, your server and your ad accounts. Your customers' consented data stays with your business, not a supplier.
 :::
 :::
 

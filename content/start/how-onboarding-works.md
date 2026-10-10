@@ -6,6 +6,42 @@ icon: rocket
 
 Lupe is a Transparent Digital Services (TDS) company, so the team you work with during onboarding is the TDS implementation team.
 
+## The end goal
+
+The end goal is to make sure each of your web assets (stores, websites, landing pages and so on) passes its data to an endpoint under **your own domain**.
+
+<figure class="ep" aria-label="Three websites, each with one Google Tag Manager script, send data to one server endpoint at data.yourdomain.com, which sends consent-checked data to your platforms.">
+<div class="ep-sites">
+<div class="ep-site" style="--d:0s"><div class="ep-site-top"><img src="/images/logos/shopify.svg" alt=""><div><b>store.yourdomain.com</b><span>Shopify store</span></div></div><span class="ep-gtm"><img src="/images/logos/google-tag-manager.svg" alt="">1 GTM script</span><i class="ep-line"><i class="ep-dot"></i></i></div>
+<div class="ep-site" style="--d:.8s"><div class="ep-site-top"><span class="ep-glyph">www</span><div><b>yourdomain.com</b><span>Main website</span></div></div><span class="ep-gtm"><img src="/images/logos/google-tag-manager.svg" alt="">1 GTM script</span><i class="ep-line"><i class="ep-dot"></i></i></div>
+<div class="ep-site" style="--d:1.6s"><div class="ep-site-top"><span class="ep-glyph">try</span><div><b>try.yourdomain.com</b><span>Landing page</span></div></div><span class="ep-gtm"><img src="/images/logos/google-tag-manager.svg" alt="">1 GTM script</span><i class="ep-line"><i class="ep-dot"></i></i></div>
+</div>
+<div class="ep-hub">
+<span class="ep-hub-kicker">Server-side GTM endpoint</span>
+<b>data.yourdomain.com</b>
+<span class="ep-gate">Consent checked</span>
+<i class="ep-line ep-out"><i class="ep-dot"></i></i>
+</div>
+<div class="ep-dests">
+<span class="ep-dest"><img src="/images/logos/meta.svg" alt="">Meta</span>
+<span class="ep-dest"><img src="/images/logos/google-ads.svg" alt="">Google Ads</span>
+<span class="ep-dest"><img src="/images/logos/google-analytics.svg" alt="">GA4</span>
+<span class="ep-dest"><img src="/images/logos/tiktok.svg" alt="">TikTok</span>
+<span class="ep-dest ep-more">and your other platforms</span>
+</div>
+<figcaption>Each site runs one Google Tag Manager script. Every site sends its data to one server-side endpoint on your domain, and only consent-checked data goes on to your platforms.</figcaption>
+</figure>
+
+This flow of data is carefully orchestrated so that the correct consent signals pass through, and so that your tracking is first party. That reduces the impact of ad blockers, and of browser and device features that interrupt data flow.
+
+Onboarding works by getting the [minimum access required](page:your-data-our-access) to set up, maintain and test this infrastructure.
+
+You'll be allocated an onboarding manager to help with this process and answer any questions. You can also log in to your Lupe account at any time for an overview of your platforms, accounts, tokens and containers.
+
+:::info We're here to help
+Ask us anything, at any stage. For the full picture, watch our [in-depth video explainer on YouTube](https://www.youtube.com/watch?v=F01kP0aixEg&t=3s).
+:::
+
 :::warning Important: you are always in control
 All platforms, and the data in them, stay under your admin rights at all times. Lupe does not store or use your platform data, except to show you an aggregated and anonymised analytical view.
 
@@ -35,12 +71,12 @@ Your onboarding manager will tell you which ones apply to you. If your site runs
 
 | Guide | Where you do it | Time | What you share |
 | --- | --- | --- | --- |
-| :logo[shopify][Shopify access & Stape setup](page:shopify-stape-setup) | Shopify admin | About 10 minutes | Collaborator access, plus installing the Stape app yourself |
-| :logo[wordpress][WordPress & Stape setup](page:wordpress-stape-setup) | WordPress admin | About 10 minutes | Installing the Stape plugin yourself; no login needed |
-| :logo[meta][Meta dataset access](page:meta-dataset-access) | Meta Business settings | About 5 minutes | One dataset, assigned to our business |
-| :logo[tiktok][TikTok pixel access](page:tiktok-pixel-access) | TikTok Business Center | About 5 minutes | One pixel, shared with our Business Center |
-| :logo[google-ads][Google Ads setup](page:google-ads-access) | Google Ads, on a short screen-share | About 15 minutes | No access: a GA4 link and two codes |
-| :logo[google-analytics][Google Analytics 4 access](page:ga4-access) | Google Analytics | About 5 minutes | One property, or ask us to create one |
+| :logo[shopify][Shopify access & Stape setup](page:shopify-stape-setup) | Shopify admin | Under 5 minutes | Collaborator access, plus installing the Stape app yourself |
+| :logo[wordpress][WordPress & Stape setup](page:wordpress-stape-setup) | WordPress admin | Under 5 minutes | Installing the Stape plugin yourself; no login needed |
+| :logo[meta][Meta dataset access](page:meta-dataset-access) | Meta Business settings | Under 3 minutes | One dataset, assigned to our business |
+| :logo[tiktok][TikTok pixel access](page:tiktok-pixel-access) | TikTok Business Center | Under 3 minutes | One pixel, shared with our Business Center |
+| :logo[google-ads][Google Ads setup](page:google-ads-access) | Google Ads, on a short screen-share | Under 8 minutes | No access: a GA4 link and two codes |
+| :logo[google-analytics][Google Analytics 4 access](page:ga4-access) | Google Analytics | Under 3 minutes | One property, or ask us to create one |
 
 Advertise on LinkedIn, Pinterest or ChatGPT? See [All platform access guides](page:all-platforms).
 

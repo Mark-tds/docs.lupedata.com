@@ -17,7 +17,7 @@ We run your site through our compliance scanner to see what happens on first loa
 :::step title="You choose your consent platform" label="Step 2"
 By default we use CookieYes as the consent management platform (CMP). Other Google-certified CMPs can be used at your request. The CMP account is yours, under your own terms with the provider.
 :::
-:::step title="You grant access from your own accounts" label="Your part · about 20 minutes"
+:::step title="You grant access from your own accounts" label="Your part · under 10 minutes"
 Complete the guides that apply to your business:
 
 - :logo[shopify][Shopify access & Stape setup](page:shopify-stape-setup), if your site runs on Shopify

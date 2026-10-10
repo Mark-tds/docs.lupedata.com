@@ -1,11 +1,11 @@
 ---
 title: Pinterest ads access
 sidebarTitle: Pinterest
-description: Add us as a partner in Pinterest Business Manager and share one ad account. About 5 minutes.
+description: Add us as a partner in Pinterest Business Manager and share one ad account. Under 3 minutes.
 logo: pinterest
 icon: pixel
 eyebrow: Client onboarding guide
-time: About 5 minutes
+time: Under 3 minutes
 ---
 
 To set up the Pinterest tag and the Pinterest Conversions API, we need access to one ad account. You share it with us as a partner from your own Business Manager, nothing else is shared, and you can remove our access at any time.

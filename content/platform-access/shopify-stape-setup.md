@@ -5,7 +5,7 @@ description: Four quick steps to get your first-party tracking live.
 logo: shopify
 icon: store
 eyebrow: Client onboarding guide
-time: About 10 minutes
+time: Under 5 minutes
 ---
 
 To set up your first-party data infrastructure, our team needs limited collaborator access to your Shopify store and the Stape Conversion Tracking app installed. You won't need to share a password or add anyone as staff, and you stay in control of the access the whole time.

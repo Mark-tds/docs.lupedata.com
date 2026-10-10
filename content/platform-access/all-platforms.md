@@ -12,20 +12,20 @@ You only need the guides for platforms your business uses. Each one is done from
 
 | Platform | How we're added | What you share | Time |
 | --- | --- | --- | --- |
-| :logo[meta][Meta](page:meta-dataset-access) | Partner business "Lupe \| TDS" | One dataset | About 5 minutes |
-| :logo[tiktok][TikTok](page:tiktok-pixel-access) | Partner Business Center "Lupe \| TDS" | One pixel | About 5 minutes |
-| :logo[google-ads][Google Ads](page:google-ads-access) | Not added: you approve a GA4 link | A conversion ID and label | About 15 minutes |
-| :logo[linkedin][LinkedIn](page:linkedin-access) | Partner in LinkedIn Business Manager | One ad account | About 5 minutes |
-| :logo[pinterest][Pinterest](page:pinterest-access) | Partner in Pinterest Business Manager | One ad account | About 5 minutes |
-| :logo[openai][ChatGPT ads (OpenAI)](page:openai-ads-access) | Invite analytics@lupedata.com | One advertising account | About 5 minutes |
+| :logo[meta][Meta](page:meta-dataset-access) | Partner business "Lupe \| TDS" | One dataset | Under 3 minutes |
+| :logo[tiktok][TikTok](page:tiktok-pixel-access) | Partner Business Center "Lupe \| TDS" | One pixel | Under 3 minutes |
+| :logo[google-ads][Google Ads](page:google-ads-access) | Not added: you approve a GA4 link | A conversion ID and label | Under 8 minutes |
+| :logo[linkedin][LinkedIn](page:linkedin-access) | Partner in LinkedIn Business Manager | One ad account | Under 3 minutes |
+| :logo[pinterest][Pinterest](page:pinterest-access) | Partner in Pinterest Business Manager | One ad account | Under 3 minutes |
+| :logo[openai][ChatGPT ads (OpenAI)](page:openai-ads-access) | Invite analytics@lupedata.com | One advertising account | Under 3 minutes |
 
 ## Website, store and analytics
 
 | Platform | How we're added | What you share | Time |
 | --- | --- | --- | --- |
-| :logo[google-analytics][Google Analytics 4](page:ga4-access) | Invite analytics@lupedata.com, or ask us to create a property | One GA4 property | About 5 minutes |
-| :logo[shopify][Shopify](page:shopify-stape-setup) | Collaborator request "Lupe Data \| TDS" | Four permission areas, plus installing the Stape app | About 10 minutes |
-| :logo[wordpress][WordPress](page:wordpress-stape-setup) | No login needed: you install the Stape plugin | Nothing: you paste in the details we send | About 10 minutes |
+| :logo[google-analytics][Google Analytics 4](page:ga4-access) | Invite analytics@lupedata.com, or ask us to create a property | One GA4 property | Under 3 minutes |
+| :logo[shopify][Shopify](page:shopify-stape-setup) | Collaborator request "Lupe Data \| TDS" | Four permission areas, plus installing the Stape app | Under 5 minutes |
+| :logo[wordpress][WordPress](page:wordpress-stape-setup) | No login needed: you install the Stape plugin | Nothing: you paste in the details we send | Under 5 minutes |
 
 ## Our details at a glance
 

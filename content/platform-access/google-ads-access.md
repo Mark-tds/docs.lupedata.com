@@ -1,11 +1,11 @@
 ---
 title: Google Ads setup
 sidebarTitle: Google Ads
-description: Connect Google Ads to your first-party setup without giving us any access to your Google Ads account. About 15 minutes, mostly on a short screen-share.
+description: Connect Google Ads to your first-party setup without giving us any access to your Google Ads account. Under 8 minutes, mostly on a short screen-share.
 logo: google-ads
 icon: rocket
 eyebrow: Client onboarding guide
-time: About 15 minutes
+time: Under 8 minutes
 ---
 
 We set up Google Ads conversion tracking **without any access to your Google Ads account**. You approve one link from your Google Analytics 4 property, create your conversion actions with us on a short screen-share, and send us two codes. Your budgets, spend, billing and leads stay completely private.
@@ -33,7 +33,7 @@ We are never added as a user and never linked as a manager account. We don't see
 
 - Complete the [Google Analytics 4 guide](page:ga4-access) first. We send the link request from your GA4 property, using the Editor access you give us there.
 - You'll need **Admin** access to your Google Ads account to approve the link and create conversion actions.
-- Book a 15-minute screen-share with your onboarding manager for Step 2. We'll guide every click.
+- Book a short screen-share with your onboarding manager for Step 2. We'll guide every click.
 
 ## Your steps
 

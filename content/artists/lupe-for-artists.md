@@ -1,7 +1,7 @@
 ---
 title: Lupe for Artists & Creators
 sidebarTitle: Overview
-description: Own your crowd. Improve D2C. Fuel your growth tools. First-party data systems for artist and creator teams.
+description: Own and protect your fans' consented data. Improve D2C. Fuel your growth tools. First-party data systems for artist and creator teams.
 icon: users
 eyebrow: Lupe for Artists & Creators
 audience: Artists, managers & label teams
@@ -30,7 +30,7 @@ Tour announcements, ticket sales and VIP. Fill rooms without guessing who to rea
 
 ## Your fan data is everywhere, except with you
 
-- **The fan relationship often isn't yours.** Audiences and data sit in accounts you don't control: label ad accounts, agency datasets, ticketing partners.
+- **Your fans' consented data often isn't in your hands.** Audiences and data sit in accounts you don't control: label ad accounts, agency datasets, ticketing partners.
 - **Spend is often wasted or inefficient.** A large share of conversions can be lost to ad blockers and browser privacy features before any platform sees them.
 - **Campaigns rely on too many moving parts.** Label and partner sign-offs, or agencies, can hold up every deployment and scatter assets.
 - **Consent may be broken, silently.** A tag fires after a fan says no and nobody knows, opening up legal liability for the artist.
@@ -44,8 +44,8 @@ Platforms optimise on complete, consented signals, and spend follows what works 
 :::card title="Data quality" icon="check-circle" tone="violet"
 One source of truth, instead of every script counting differently. Alerts flag silent breakage before it costs a campaign.
 :::
-:::card title="Own the fan relationship" icon="lock" tone="violet"
-Your domain, your server, your ad accounts. Audiences that last across every release and tour.
+:::card title="Own and protect your fans' consented data" icon="lock" tone="violet"
+Your domain, your server, your ad accounts. Consented fan data that stays with the artist across every release and tour.
 :::
 :::card title="Supporting legal compliance" icon="shield" tone="violet"
 Consent is enforced twice and logged every time. Data is minimised before it reaches any platform.

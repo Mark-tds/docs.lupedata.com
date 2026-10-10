@@ -17,6 +17,26 @@ layout: home
 <div class="hero-rule"></div>
 </div>
 
+## Why we're different
+
+Some first-party solutions rely on self-serve, automated connections and apps. These can pick the wrong dataset, or map events and consent incorrectly, without anyone noticing. In our experience, it's vital to look at your accounts, your access and your datasets, and to test that everything is correct and working properly. Your onboarding manager supports you with exactly that.
+
+:::cards cols="3"
+:::card title="Checked by people, not just apps" icon="users" tone="violet"
+We review your accounts, access and datasets with you, and test that events and consent signals arrive correctly in each platform.
+:::
+:::card title="Conflicts flagged" icon="warning" tone="violet"
+We highlight scripts, apps or pixels that conflict with each other or undermine your data accuracy, so you can decide what to keep.
+:::
+:::card title="Extra help when you need it" icon="life" tone="violet"
+Check your site any time with the free [Lupe scanner](https://scanner.lupedata.com). For ads and strategic support, talk to your onboarding manager.
+:::
+:::
+
+:::info A note on compliance
+We can't take legal responsibility for your data compliance, which stays with your business and your advisers. Part of our work is to show you where your setup may be inconsistent, so you can act on it.
+:::
+
 ## Choose your path
 
 The setup behind both paths is the same. The guides explain it in the terms that matter to you.
@@ -32,7 +52,7 @@ The setup behind both paths is the same. The guides explain it in the terms that
 <a class="path" href="page:lupe-for-artists">
 <span class="path-kicker">Set up Lupe for Artists &amp; Creators</span>
 <span class="path-title">For artists, creators, managers and label teams</span>
-<p>Own your crowd across merch, streaming and live, with a setup your label and legal team can review step by step.</p>
+<p>Own and protect your fans' consented data across merch, streaming and live, with a setup your label and legal team can review step by step.</p>
 <ul><li>Explainer film</li><li>Shared guide for labels and legal teams</li><li>Merch store and ad platform guides</li></ul>
 <span class="path-go">Go to Lupe for Artists &amp; Creators →</span>
 </a>
@@ -40,35 +60,35 @@ The setup behind both paths is the same. The guides explain it in the terms that
 
 ## Platform access guides
 
-Each guide takes about 5 to 10 minutes. You complete a few steps in your own account, then let your onboarding manager know you're done.
+Each guide takes under 5 minutes. You complete a few steps in your own account, then let your onboarding manager know you're done.
 
 :::cards cols="3"
 :::card title="Shopify" href="page:shopify-stape-setup" logo="shopify"
-Approve limited collaborator access and install the Stape app. About 10 minutes.
+Approve limited collaborator access and install the Stape app. Under 5 minutes.
 :::
 :::card title="WordPress" href="page:wordpress-stape-setup" logo="wordpress"
-Check for existing tracking, install the Stape plugin and switch on auto-updates. About 10 minutes.
+Check for existing tracking, install the Stape plugin and switch on auto-updates. Under 5 minutes.
 :::
 :::card title="Google Analytics 4" href="page:ga4-access" logo="google-analytics"
-Add us to one property, or ask us to create a new one for you. About 5 minutes.
+Add us to one property, or ask us to create a new one for you. Under 3 minutes.
 :::
 :::card title="Meta" href="page:meta-dataset-access" logo="meta"
-Assign us as a partner on one dataset. About 5 minutes.
+Assign us as a partner on one dataset. Under 3 minutes.
 :::
 :::card title="TikTok" href="page:tiktok-pixel-access" logo="tiktok"
-Add us as a partner and share one pixel. About 5 minutes.
+Add us as a partner and share one pixel. Under 3 minutes.
 :::
 :::card title="Google Ads" href="page:google-ads-access" logo="google-ads"
-No access to your account: approve a GA4 link and send us two codes. About 15 minutes.
+No access to your account: approve a GA4 link and send us two codes. Under 8 minutes.
 :::
 :::card title="LinkedIn" href="page:linkedin-access" logo="linkedin"
-Add us as a partner and share one ad account. About 5 minutes.
+Add us as a partner and share one ad account. Under 3 minutes.
 :::
 :::card title="Pinterest" href="page:pinterest-access" logo="pinterest"
-Add us as a partner and share one ad account. About 5 minutes.
+Add us as a partner and share one ad account. Under 3 minutes.
 :::
 :::card title="ChatGPT ads (OpenAI)" href="page:openai-ads-access" logo="openai"
-Invite us to one advertising account. About 5 minutes.
+Invite us to one advertising account. Under 3 minutes.
 :::
 :::
 

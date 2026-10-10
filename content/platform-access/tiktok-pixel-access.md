@@ -5,7 +5,7 @@ description: Four quick steps to give us access to one pixel, and nothing else.
 logo: tiktok
 icon: pixel
 eyebrow: Client onboarding guide
-time: About 5 minutes
+time: Under 3 minutes
 ---
 
 To set up and test your server-side tracking for TikTok, our team needs access to one pixel in your TikTok Business Center. You share it with us from your own account, nothing else is shared, and you can remove our access at any time.

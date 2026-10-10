@@ -19,16 +19,16 @@ Who acts as controller of fan data, and who owns the website, data and ad accoun
 ## Your access guides
 
 :::steps
-:::step title="Your website or merch store" label="About 10 minutes"
+:::step title="Your website or merch store" label="Under 5 minutes"
 If your site or merch store runs on Shopify, approve our collaborator request and install the Stape app: :logo[shopify][Shopify guide](page:shopify-stape-setup). If it runs on WordPress, install the Stape plugin: :logo[wordpress][WordPress guide](page:wordpress-stape-setup).
 :::
-:::step title="Meta dataset" label="About 5 minutes"
+:::step title="Meta dataset" label="Under 3 minutes"
 Assign us as a partner on the one dataset the artist's website uses, and check it's linked to the ad account you advertise from. [Open the Meta guide](page:meta-dataset-access).
 :::
-:::step title="TikTok pixel" label="About 5 minutes"
+:::step title="TikTok pixel" label="Under 3 minutes"
 Add us as a partner and share the one pixel the artist's website uses. [Open the TikTok guide](page:tiktok-pixel-access).
 :::
-:::step title="Let your onboarding manager know" label="1 minute"
+:::step title="Let your onboarding manager know" label="Under 1 minute"
 Send the names and IDs of the dataset and pixel you shared. The platforms don't always notify us, so this is how we know to start.
 :::
 :::

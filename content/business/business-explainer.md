@@ -1,6 +1,6 @@
 ---
 title: The business explainer
-description: Own your customers. Protect your margin. Why first-party data matters for business owners, in eight short chapters.
+description: Own and protect your customers' consented data. Protect your margin. Why first-party data matters for business owners, in eight short chapters.
 icon: flow
 eyebrow: Lupe for Business Owners
 layout: story
@@ -22,7 +22,7 @@ layout: story
 <p class="ch-label">02 · Where most businesses are</p>
 <h2 class="ch-title">Your customer data is everywhere. <em>Except with you.</em></h2>
 <ul class="ch-issues">
-<li><div><b>The customer relationship often isn't yours</b><span>Audiences and data sit in apps, plugins and agency accounts you don't control.</span></div></li>
+<li><div><b>Your customers' consented data often isn't in your hands</b><span>Audiences and data sit in apps, plugins and agency accounts you don't control.</span></div></li>
 <li><div><b>Spend is often wasted or inefficient</b><span>Ad blockers and browser privacy features hide a large share of conversions before any platform sees them.</span></div></li>
 <li><div><b>Too many moving parts</b><span>Scripts added over the years by different suppliers slow your site and each count sales differently.</span></div></li>
 <li><div><b>Consent may be broken, silently</b><span>A tag fires after a customer says no, and nobody knows until it becomes a complaint.</span></div></li>
@@ -64,7 +64,7 @@ layout: story
 <div class="ch-grid four">
 <div class="ch-card"><b>Healthier margin</b><span>Platforms optimise on complete, consented signals, so spend follows what actually sells.</span></div>
 <div class="ch-card"><b>Data you can trust</b><span>One source of truth, not every script counting differently. Alerts before breakage costs a month.</span></div>
-<div class="ch-card"><b>Own your customers</b><span>Your domain, your server, your ad accounts. Audiences that stay with the business.</span></div>
+<div class="ch-card"><b>Own and protect your customers' consented data</b><span>Your domain, your server, your ad accounts. Consented data stays with the business.</span></div>
 <div class="ch-card"><b>Supporting compliance</b><span>Consent enforced twice and logged every time. Data minimised before it reaches any platform.</span></div>
 </div>
 </section>
@@ -90,7 +90,7 @@ layout: story
 </div>
 </section>
 <section class="ch ch-end">
-<h2 class="ch-title">Own your data. <em>Protect your margin.</em></h2>
+<h2 class="ch-title">Own and protect your customers' consented data. <em>Protect your margin.</em></h2>
 <p>First-party data systems for business owners. Simplified.</p>
 <a class="btn btn-primary" href="page:business-onboarding">Get set up</a>
 </section>

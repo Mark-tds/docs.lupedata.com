@@ -1,11 +1,11 @@
 ---
 title: Google Analytics 4 access
 sidebarTitle: Google Analytics 4
-description: Give us access to one GA4 property, or ask us to create a new one for you. About 5 minutes.
+description: Give us access to one GA4 property, or ask us to create a new one for you. Under 3 minutes.
 logo: google-analytics
 icon: compare
 eyebrow: Client onboarding guide
-time: About 5 minutes
+time: Under 3 minutes
 ---
 
 To send server-side events to Google Analytics 4 and show your analytics in Lupe, we need access to one GA4 property. If you don't have one, or yours isn't set up properly, we can create a new one for you inside your own Google Analytics account.

@@ -5,7 +5,7 @@ description: Three quick steps to give us access to one dataset, and nothing els
 logo: meta
 icon: database
 eyebrow: Client onboarding guide
-time: About 5 minutes
+time: Under 3 minutes
 ---
 
 To set up and test your server-side tracking for Meta, our team needs access to one dataset in your Meta Business portfolio (Meta used to call these pixels). You assign it to us from your own account, nothing else is shared, and you can remove our access at any time.
