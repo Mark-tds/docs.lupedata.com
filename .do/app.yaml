@@ -6,7 +6,7 @@ region: lon
 static_sites:
   - name: docs
     github:
-      repo: TDS-Agency/lupe-docs
+      repo: Mark-tds/docs.lupedata.com
       branch: main
       deploy_on_push: true
     build_command: npm ci && npm run build
