@@ -36,7 +36,7 @@ This flow of data is carefully orchestrated so that the correct consent signals 
 
 Onboarding works by getting the [minimum access required](page:your-data-our-access) to set up, maintain and test this infrastructure.
 
-You'll be allocated an onboarding manager to help with this process and answer any questions. You can also log in to your Lupe account at any time for an overview of your platforms, accounts, tokens and containers.
+You'll be allocated an onboarding manager to help with this process and answer any questions. You can also log in to your Lupe account at any time for an overview of your platforms, accounts, tokens and containers. New to Lupe? See [Set up your Lupe account](page:lupe-account).
 
 :::info We're here to help
 Ask us anything, at any stage. For the full picture, watch our [in-depth video explainer on YouTube](https://www.youtube.com/watch?v=F01kP0aixEg&t=3s).
