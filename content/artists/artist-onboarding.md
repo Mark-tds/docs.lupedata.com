@@ -6,6 +6,10 @@ icon: list
 eyebrow: Lupe for Artists & Creators
 ---
 
+:::tip First, set up your Lupe account
+Accept your invitation, log in and add your project. See [Set up your Lupe account](page:lupe-account).
+:::
+
 The setup is built around accounts the artist (or the artist's company) owns: the website, the server endpoint on the artist's domain, and the ad accounts. Before you start, it helps to know who owns what.
 
 ## Check who owns your accounts
@@ -35,4 +39,4 @@ Send the names and IDs of the dataset and pixel you shared. The platforms don't 
 
 ## Bringing your label or legal team in
 
-If your label's legal team has questions, share the [Shared guide for labels and legal teams](page:artist-guide). It walks through the data flow one step at a time, and ends with a [review checklist](page:review-checklist) where they can say which step a concern relates to, and why.
+If your label's legal team has questions, share the [Shared guide for labels and legal teams](page:artist-guide). It walks through the data flow one step at a time. If they have a concern, ask them to say which step it relates to, and why.

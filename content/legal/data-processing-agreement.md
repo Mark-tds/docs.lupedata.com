@@ -8,7 +8,7 @@ eyebrow: Legal
 **Lupe Platform – Terms of Service and Data Processing Agreement, Part 2**\
 Version: October 2026 · Last updated: 9 October 2026
 
-This Data Processing Agreement ("DPA") forms part of the [Terms](page:terms-of-service) between TDS and the Client. It sets out the terms on which TDS processes personal data on the Client's behalf, as required by Article 28 of the UK GDPR (and the EU GDPR where it applies).
+This Data Processing Agreement ("DPA") forms part of the agreement between TDS and the Client. It sets out the terms on which TDS processes personal data on the Client's behalf, as required by Article 28 of the UK GDPR (and the EU GDPR where it applies).
 
 ## 1. Scope and roles
 

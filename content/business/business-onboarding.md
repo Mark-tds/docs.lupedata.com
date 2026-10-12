@@ -6,6 +6,10 @@ icon: list
 eyebrow: Lupe for Business Owners
 ---
 
+:::tip First, set up your Lupe account
+Accept your invitation, log in and add your project. See [Set up your Lupe account](page:lupe-account).
+:::
+
 You keep ownership of every account throughout. You grant access from your own accounts, and you can remove it at any time.
 
 ## From first call to go-live

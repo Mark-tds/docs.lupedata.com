@@ -82,7 +82,7 @@ Actual performance gains vary by campaign, audience and consent rate. We're happ
 
 ## In this guide
 
-:::cards cols="2"
+:::cards cols="3"
 :::card title="The first-party approach" href="page:first-party-approach" icon="flow"
 How older tracking is often set up, and how the first-party flow replaces it.
 :::
@@ -91,8 +91,5 @@ Each step of the flow: what happens, what data is involved, what it relies on an
 :::
 :::card title="Who does what" href="page:who-does-what" icon="users"
 Controller and processor roles, and the paperwork each party holds.
-:::
-:::card title="Review checklist" href="page:review-checklist" icon="check-circle"
-Tell us how your team feels about each step, with the reason and any suggested change.
 :::
 :::

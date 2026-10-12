@@ -102,13 +102,13 @@ Every platform and its data stays under your admin rights. Lupe and TDS never ow
 We only ask for the one pixel, dataset or permission each setup needs. No ad accounts, orders, billing or financial information.
 :::
 :::card title="Clear terms" icon="file" tone="violet"
-Read our [Privacy policy](page:privacy-policy), [Terms of service](page:terms-of-service) and [Data processing agreement](page:data-processing-agreement).
+Read our [Privacy policy](page:privacy-policy) and [Data processing agreement](page:data-processing-agreement). Your terms are set out in your own agreement with TDS.
 :::
 :::
 
 ## About Lupe
 
-Lupe is a Transparent Digital Services (TDS) company. TDS is a UK digital marketing and data infrastructure agency, and Lupe is its first-party data platform. Throughout these docs, "we" means the Lupe team at TDS. Your agreement is with Transparent Digital Services Limited (see our [Terms of service](page:terms-of-service)).
+Lupe is a Transparent Digital Services (TDS) company. TDS is a UK digital marketing and data infrastructure agency, and Lupe is its first-party data platform. Throughout these docs, "we" means the Lupe team at TDS. Your agreement is with Transparent Digital Services Limited.
 
 :::note Need a hand?
 Contact your onboarding manager or email [contact@lupedata.com](mailto:contact@lupedata.com). If something in a guide doesn't match what you see on screen, let us know and we'll walk through it with you on a short call.

@@ -59,6 +59,6 @@ Consent is enforced twice and logged every time. Data is minimised before it rea
 Which access guides apply to artist teams, and what to check first if a label manages your pixels.
 :::
 :::card title="Shared guide for labels and legal teams" href="page:artist-guide" icon="flow"
-The plain-English walkthrough of the data flow, with a review checklist for legal teams.
+The plain-English walkthrough of the data flow, for labels and legal teams.
 :::
 :::

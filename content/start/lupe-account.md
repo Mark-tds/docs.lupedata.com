@@ -1,6 +1,6 @@
 ---
 title: Set up your Lupe account
-sidebarTitle: Your Lupe account
+sidebarTitle: Set up your Lupe account
 description: Accept your invitation, log in, and add your first project in five steps. Your onboarding manager checks everything before it goes live.
 icon: mail
 eyebrow: Client onboarding guide

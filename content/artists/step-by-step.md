@@ -60,4 +60,4 @@ The numbers match the diagram in [The first-party approach](page:first-party-app
 
 ## Have a concern about a step?
 
-It helps to say which step a concern relates to, and why. Use the [review checklist](page:review-checklist) to record your team's view on each step, then copy the summary into an email to us.
+It helps to say which step a concern relates to, and why. Send it to your onboarding manager, or email [contact@lupedata.com](mailto:contact@lupedata.com).

@@ -26,8 +26,8 @@
           "label": "Start here",
           "pages": [
             "index",
-            "start/how-onboarding-works",
             "start/lupe-account",
+            "start/how-onboarding-works",
             "start/your-data-our-access"
           ]
         },
@@ -47,6 +47,10 @@
           "label": "Lupe for Business Owners",
           "pages": [
             "business/lupe-for-business",
+            {
+              "ref": "start/lupe-account",
+              "title": "Set up your Lupe account"
+            },
             "business/business-explainer",
             "business/business-onboarding"
           ]
@@ -58,8 +62,7 @@
             "business/how-your-data-flows",
             "business/compliance-essentials",
             "business/business-roles",
-            "business/business-side-by-side",
-            "business/business-review-checklist"
+            "business/business-side-by-side"
           ]
         },
         {
@@ -100,6 +103,10 @@
           "label": "Lupe for Artists & Creators",
           "pages": [
             "artists/lupe-for-artists",
+            {
+              "ref": "start/lupe-account",
+              "title": "Set up your Lupe account"
+            },
             "artists/artist-onboarding"
           ]
         },
@@ -111,8 +118,7 @@
             "artists/step-by-step",
             "artists/international-frameworks",
             "artists/who-does-what",
-            "artists/side-by-side",
-            "artists/review-checklist"
+            "artists/side-by-side"
           ]
         },
         {
@@ -188,7 +194,6 @@
           "label": "Legal",
           "pages": [
             "legal/privacy-policy",
-            "legal/terms-of-service",
             "legal/data-processing-agreement"
           ]
         }

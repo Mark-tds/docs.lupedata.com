@@ -93,4 +93,4 @@ Check these against any request you see in your accounts.
 
 ## The legal terms
 
-These permissions are set out in Annex D of our [Data processing agreement](page:data-processing-agreement). See also our [Terms of service](page:terms-of-service) and [Privacy policy](page:privacy-policy).
+These permissions are set out in Annex D of our [Data processing agreement](page:data-processing-agreement). See also our [Privacy policy](page:privacy-policy).

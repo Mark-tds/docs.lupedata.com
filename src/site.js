@@ -353,7 +353,7 @@
     if (SINGLE) return base;
     return base + (e.a ? '#' + e.a : '');
   }
-  var DEFAULTS = ['meta-dataset-access', 'tiktok-pixel-access', 'shopify-stape-setup', 'step-by-step', 'review-checklist'];
+  var DEFAULTS = ['meta-dataset-access', 'tiktok-pixel-access', 'shopify-stape-setup', 'step-by-step', 'lupe-account'];
   function renderResults(q) {
     var terms = q.toLowerCase().split(/\s+/).filter(Boolean);
     var list;

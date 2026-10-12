@@ -21,7 +21,7 @@ TDS are not lawyers. Legal advice, consent wording and responsibility for compli
 | Keep your website, theme and apps compliant when you change them | Alert you in Lupe when consent signals fail or data stops flowing |
 | Respond to customer data requests | Help locate data flows in your setup when you ask |
 
-Full terms are in our [Terms of service](page:terms-of-service) and [Data processing agreement](page:data-processing-agreement).
+Full terms are in your agreement with TDS and our [Data processing agreement](page:data-processing-agreement).
 
 ## Your owner's checklist
 

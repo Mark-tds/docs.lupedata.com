@@ -69,4 +69,4 @@ Your server only forwards data to a platform if the consent signal is present an
 :::
 :::
 
-Have a concern about a step? Use the [review checklist](page:business-review-checklist) to record your view on each one.
+Have a concern about a step? Tell your onboarding manager which step it relates to, and why, or email [contact@lupedata.com](mailto:contact@lupedata.com).
